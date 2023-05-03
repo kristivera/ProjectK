@@ -14,7 +14,8 @@ The data is extracted from Battle.net's API to get Overwatch League data and fro
 ### Characteristics
 The data extracted resulted in 10 different tables, these are the list of tables and columns:
 
-1. Heroes
+1. **Heroes**,
+Columns:
 heroes
 heroDamageDone
 damageTaken
@@ -27,7 +28,8 @@ timePlayed
 healingDone
 soloKills
 
-2.Teams
+2. **Teams**, 
+Columns:
 TeamID
 name
 code
@@ -38,14 +40,16 @@ roster
 primaryColor
 secondaryColor
 
-3. games
+3. **games**,
+Columns:
 gameID
 matchID
 map
 maptype
 guid
 
-4. match_map_stats (This is the 2018 stats I took from kaggle)
+4. **match_map_stats** (This is the 2018 stats I took from kaggle),
+Columns:
 round_start_time
 round_end_time
 stage
@@ -73,7 +77,8 @@ attacker_round_end_score
 defender_round_end_score
 mms_ID
 
-5. matches
+5. **matches**,
+Columns:
 matchID
 winner
 team1
@@ -87,7 +92,8 @@ competitionId
 seasonId
 localTimeZone
 
-6. players
+6. **players**,
+Columns:
 player_id
 given_name
 roles
@@ -95,7 +101,8 @@ TeamID
 competitions
 familyName
 
-7. streams_twitch
+7. **streams_twitch**,
+Columns:
 streamid
 user_id
 user_name
@@ -109,18 +116,21 @@ language
 thumbnail_url
 S_ID
 
-8. tags_streams_twitch
+8. **tags_streams_twitch**,
+Columns:
 stream_id
 tags
 tags_ID
 
-9. top_games_twitch
+9. **top_games_twitch**,
+Columns:
 game_id
 name
 box_art_url
 igdb_id
 
-10. videos_twitch
+10. **videos_twitch**,
+Columns:
 video_id
 stream_id
 user_id
