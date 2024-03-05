@@ -2,10 +2,7 @@
 Overwatch League Data Analysis & Machine Learning
 
 ## Project Overview
-As a long-term Overwatch player with a strong passion for gaming, I chose this project for my ISBA 4715 class, but I viewed it more as a passion project than a school assignment. In this project, I extracted data from both Battle.Net's API and Twitch's API, focusing on various aspects such as Overwatch League (OWL) team win rates and Twitch video or stream viewership, among others. After obtaining the data, I uploaded the dataframes to my AWS database and configured them using MySQL. With the 10 tables I created, some containing over 400+ rows, I aimed to analyze the data to determine the ways Blizzard could improve Overwatch's gameplay, ultimately leading to increased player engagement and satisfaction.
-
-## Job Description
-The job position is for Blizzard's data science position, it mentions that they are aiming to improve game analytics and advertising product performance. We would need to analyze the player base with the specific modeling techniques listed in order to power their advertising platform. Blizzard is also aiming to be a bigger name within the e-sports industry. My project will directly tackle their job position requirements by analyzing Overwatch League's game performance to produce insights that will help the marketing department and the game developers, with the main intention of increasing player base which will ultimately lead to a bigger name within the e-sports community.
+As a long-term Overwatch enthusiast with a deep passion for gaming, I selected this project for my ISBA 4715 class, treating it more as a passion project than merely a school assignment. I embarked on this venture by extracting data from Battle.Net's and Twitch's APIs, focusing on various metrics such as Overwatch League (OWL) team win rates and Twitch video or stream viewership, among others. Following the data extraction, I proceeded to upload the dataframes to my AWS database, configuring them with MySQL. This led to the creation of 10 tables, some boasting over 400+ rows. My goal was to analyze the data to identify strategies that could enhance Overwatch's gameplay, which, combined with market trend research, was aimed at boosting player engagement and satisfaction.
 
 ## Data
 ### Source
